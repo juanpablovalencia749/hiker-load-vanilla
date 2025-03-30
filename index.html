@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiker Load Vanilla</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/assets/style.css">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+</head>
+<body>
+    <div class="hiker__load">
+        <h1 class="hiker__load__title">Hiker Load Vanilla</h1>
+
+        <div class="filters">
+          <div class="filters__group">
+              <label for="minCalories" class="filters__label">Calorías mínimas:</label>
+              <div class="filters__wrapper">
+                  <select id="minCalories" class="filters__select"></select>
+                  <span class="filters__unit">kcal</span>
+              </div>
+          </div>
+      
+          <div class="filters__group">
+              <label for="maxWeight" class="filters__label">Peso máximo:</label>
+              <div class="filters__wrapper">
+                  <select id="maxWeight" class="filters__select"></select>
+                  <span class="filters__unit">kg</span>
+              </div>
+          </div>
+      </div>
+        <h2 class="items__title">Elementos Seleccionados:</h2>
+        <ul id="result" class="items"></ul>
+
+        <button id="calculateButton" class="button">Calcular</button>
+        <p id="message" class="message"></p>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
