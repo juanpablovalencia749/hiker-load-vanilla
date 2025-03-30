@@ -14,8 +14,7 @@ Hiker Load Vanilla es una aplicación web desarrollada en JavaScript puro (Vanil
 1. **Clonar el repositorio:**
 
    ```bash
-   git clone https://github.com/tu-usuario/hiker-load-vanilla.git
-   cd hiker-load-vanilla
+   git clone https://github.com/juanpablovalencia749/hiker-load-vanilla.git
    ```
 
 2. **Instalar dependencias:**
